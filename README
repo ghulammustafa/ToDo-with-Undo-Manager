@@ -9,3 +9,6 @@ Modifications:
 The sample application demonstrated how to setup core-data and build a simple to-do application. The application support addition and deletion operations.
 
 The original source was working, but it was not demonstrating the undo and redo operations. The undo manager was configured, but there was no way to test if the undo and redo are working (in other words, the implementation was incomplete). I added a segmented control with undo and redo items, and implemented the basic undo and redo operations. You can now undo/redo add and delete operations.
+
+Key Terms:
+UITableView, NSFetchedResultsController, NSManagedObjectContext, NSUndoManager, undo, redo, grouping
